@@ -1,0 +1,132 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 472000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have launched the application",
+            "match": {
+              "location": "Stepdefs.LoginStepdefs.i_have_launched_the_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-06-08T17:45:51.263Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1976000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Stepdefs.Hooks.Setup()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Validate the Login success scenario using parameters",
+        "description": "",
+        "id": "this-feature-is-used-to-test-the-login-functionality-of-saucedemo-application;validate-the-login-success-scenario-using-parameters",
+        "after": [
+          {
+            "result": {
+              "duration": 648000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Stepdefs.Hooks.Teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 133000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter username as \"standard_user\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 20
+                }
+              ],
+              "location": "Stepdefs.LoginStepdefs.i_enter_username_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 83000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter password as \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 20
+                }
+              ],
+              "location": "Stepdefs.LoginStepdefs.i_enter_password_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 91000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on Login button",
+            "match": {
+              "location": "Stepdefs.LoginStepdefs.i_click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "i should land on Home Page",
+            "match": {
+              "location": "Stepdefs.LoginStepdefs.i_should_land_on_Home_Page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          }
+        ]
+      }
+    ],
+    "name": "This feature is used to test the Login functionality of Saucedemo application",
+    "description": "",
+    "id": "this-feature-is-used-to-test-the-login-functionality-of-saucedemo-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/login.feature",
+    "tags": []
+  }
+]
